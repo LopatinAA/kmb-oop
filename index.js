@@ -4,7 +4,7 @@ const showNextBtn = document.getElementById('show-next-btn');
 showPrevBtn.addEventListener('click', onShowPrevBtnClick);
 showNextBtn.addEventListener('click', onShowNextBtnClick);
 
-let imgsUrls
+console.log('test')
 
 
 
