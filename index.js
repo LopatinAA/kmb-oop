@@ -6,7 +6,7 @@ showNextBtn.addEventListener('click', onShowNextBtnClick);
 
 console.log('test')
 
-
+console.log('test2');
 
 
 
