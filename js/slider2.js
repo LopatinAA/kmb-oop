@@ -1,12 +1,21 @@
-const slider1 = {
+//let slider2 = getNewSlider();
+
+/*const slider2 = {
     imagesUrls: [],
     currentImageIndex: 0,
-    showPrevBtn: document.getElementById('show-prev-btn'),
-    showNextBtn: document.getElementById('show-next-btn'),
-    slideImage: document.getElementById('slide-img'),
+    showPrevBtn: null, //document.querySelector('.show-prev-btn'),
+    showNextBtn: null, //document.querySelector('.show-next-btn'),
+    slideImage: null, //document.querySelector('.slide-img'),
 
-    start: function () {
+    start: function (elId) {
         var that = this;
+
+        let el = document.querySelector('#' + elId);
+
+        this.showPrevBtn = el.querySelector('.show-prev-btn');
+        this.showNextBtn = el.querySelector('.show-next-btn');
+        this.slideImage = el.querySelector('.slide-img');
+
         //subscribe to events
         this.showPrevBtn.addEventListener('click', function(e) {
             that.onShowPrevBtnClick(e);
@@ -43,4 +52,4 @@ const slider1 = {
             this.showNextBtn.disabled = true;
         }
     }
-}
+}*/

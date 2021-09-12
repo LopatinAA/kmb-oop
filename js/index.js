@@ -1,4 +1,11 @@
-slider1.start();
+let slider1 = sliderFactory.creatNewSlider();
+let slider2 = sliderFactory.creatNewSlider();
+
+//let cont1 =  document.querySelector('itk-slider1')
+//let cont2 =  document.querySelector('itk-slider2')
+
+slider1.start('itk-slider1');
+slider2.start('itk-slider2');
 
 /*let imagesUrls = [];
 let currentImageIndex = 0 ;

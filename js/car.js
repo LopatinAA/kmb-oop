@@ -13,19 +13,3 @@ let car1 = {
         this.engine.isTurnOn = true;
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
